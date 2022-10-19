@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+.logo{
+    width: 10rem;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.hidden{
+    width: 0;
+}
+
+.mainSection {
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.titleMockup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    height: 90vh;
+}
+
+.mockup {
+    max-width: 40vw;
+}
+
+.text {
+    margin-left: 2rem;
+    
+}
+
+h1 {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+
+.footer {
+    padding-left: 70vw;
+}
+
+button{
+    background-color: white;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    border: none;
+    padding: .5rem 2rem .5rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 1px 1px 15px 2px rgb(43, 42, 42);
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+    font-weight: bold;
+}
+
+.socialIcon {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:650px) {
+
+    .logo{
+        position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    }
+
+    
+    .footer {
+        padding-left: 0;
+    }
+
+    .mainSection {
+        background-image: url("images/bg-mobile.svg");
+    }
+    
+    
+    .titleMockup {
+        flex-direction: column;
+        max-width: 90vw;
+        text-align: center;
+    }
+    
+    .mockup {
+        max-width: 80vw;
+    }
+    
+    .text {
+        margin-left: 0;
+        
+    }
+    
+    h1 {
+        
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        margin-bottom: 4rem;
+        font-weight: 400;
+        font-size: .8rem;
+    }
+
+    button{
+        margin-bottom: 0;
+        padding: .5rem 4rem .5rem 4rem;
+    }
+
+
+}

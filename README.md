@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/filecc/Huddle-landing-page
-- Live Site URL: 
+- Live Site URL: https://filecc.github.io/Huddle-landing-page/
 
 ## My process
 
